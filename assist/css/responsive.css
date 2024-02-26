@@ -1,0 +1,309 @@
+/* =============================================================================
+           Small Screen - Tablate/Others
+ ============================================================================= */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+	
+/*manu button */
+	.menu-button {
+		display: block;
+		position: fixed;
+		top: 20px;
+		right: 10%;
+	}
+	
+/*header area responsive hare*/
+	.header-area {
+		transition: all 1000ms ease;
+		position: flex;
+		left: -300px;
+	}
+	.header-area-active {
+		left: 0;
+	}
+	
+	/*header area reponsive end hare*/
+
+	/*hero area start hare*/
+
+	.hero-area {
+		background-position: center;
+	}
+	.hero-content .hero-text h1 {
+		font-size: 28px;
+	}
+
+	/*hero area end hare*/
+	/*main area responsive start hare*/
+
+	.main-area {
+		margin-left: 0;
+		z-index: 55;
+	}
+
+	/*fact area start hare*/
+	.fact-area {
+		padding-bottom: 20px;
+	}
+	.about-sr-content {
+		margin-top: 20px;
+	}
+	.responsive-m {
+		margin-top: 20px;
+	}
+	
+	/*fact area end hare*/
+/*	skills area start hare*/
+	
+	.prof-exp {
+		padding: 10px 0px;
+	}
+	
+	
+	.portfolio-content .protfolio-lightbox {
+		padding: 10px 0px;
+	}
+	.contact-block-one .map iframe {
+	    width: 100%;
+	    height: 290px;
+	}		
+	
+	.contact-block-two {
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+	
+	.protfolio-lightbox .grid .overly-content a {
+		padding: 5px 0px;
+	}
+	.protfolio-lightbox .grid .element-item:hover .overly-content {
+		margin-top: 59%;
+	}
+		
+	
+	
+	
+	
+	
+	
+	
+	
+
+
+
+/*copyright area responsive start hare*/
+	.copyright-area {
+		position: static;
+		width: 100%;
+		margin-top: 20px;
+	}
+
+
+}
+
+
+
+/* =============================================================================
+            Xtra Small Screen - Tablate
+ ============================================================================= */
+@media screen and (min-width: 480px) and (max-width: 767px) {	
+
+		/*manu button */
+	.menu-button {
+		display: block;
+		position: fixed;
+		top: 20px;
+		right: 10%;
+	}
+	
+/*header area responsive hare*/
+	.header-area {
+		transition: all 1000ms ease;
+		position: flex;
+		left: -300px;
+	}
+	.header-area-active {
+		left: 0;
+	}
+	
+	/*header area reponsive end hare*/
+
+	/*hero area start hare*/
+
+	.hero-area {
+		background-position: center;
+	}
+	.hero-content .hero-text h1 {
+		font-size: 28px;
+	}
+
+	/*hero area end hare*/
+	/*main area responsive start hare*/
+
+	.main-area {
+		margin-left: 0;
+	}
+	.about-sr-content {
+		margin-top: 20px;
+	}
+	.about-area {
+		padding: 25px 0px;
+	}
+	.progress-number-mark {
+		padding: 0 2px;
+		font-size: 8px;
+	}
+	.contact-block-one .map iframe {
+	    width: 100%;
+	    height: 200px;
+	}	
+	.copyright-area {
+		position: static;
+		width: 100%;
+		margin-top: 20px;
+	}
+	.protfolio-lightbox .grid .overly-content a {
+		padding: 5px 0px;
+	}
+	.protfolio-lightbox .grid .element-item:hover .overly-content {
+		margin-top: 52%;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+/* =============================================================================
+            Xtra Small Screen - Mobile Phone
+ ============================================================================= */
+@media screen and (max-width: 479px) {
+
+
+	/*manu button */
+	.menu-button {
+		display: block;
+		position: fixed;
+		top: 20px;
+		right: 10%;
+	}
+	
+/*header area responsive hare*/
+	.header-area {
+		transition: all 500ms ease;
+		position: flex;
+		left: -300px;
+	}
+	.header-area-active {
+		left: 0;
+	}
+	
+	/*header area reponsive end hare*/
+
+	/*hero area start hare*/
+
+	.hero-area {
+		background-position: center;
+	}
+	.hero-content .hero-text h1 {
+		font-size: 28px;
+	}
+
+	/*hero area end hare*/
+	/*main area responsive start hare*/
+
+	.main-area {
+		margin-left: 0;
+	}
+	.about-sr-content {
+		margin-top: 20px;
+	}
+	.about-area {
+		padding: 25px 0px;
+	}
+	.progress-number-mark {
+		padding: 0 2px;
+		font-size: 8px;
+	}
+	.contact-block-one .map iframe {
+	    width: 100%;
+	    height: 200px;
+	}	
+	.copyright-area {
+		position: static;
+		width: 100%;
+		margin-top: 20px;
+	}
+	.protfolio-lightbox .grid .overly-content a {
+		padding: 5px 0px;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
